@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Usha Sri Portfolio</title>
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="portfolio-container">
+
+        <!-- NAVBAR -->
+        <header class="navbar">
+
+            <div class="logo">
+                USHA<span>.</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#" onclick="showPage('home'); return false;">Home</a>
+                <a href="#" onclick="showPage('about'); return false;">About</a>
+                <a href="#" onclick="showPage('education'); return false;">Education</a>
+                <a href="#" onclick="showPage('skills'); return false;">Skills</a>
+                <a href="#" onclick="showPage('projects'); return false;">Projects</a>
+                <a href="#" onclick="showPage('contact'); return false;">Contact</a>
+            </nav>
+
+            <div class="language">
+                ENG
+            </div>
+
+        </header>
+
+        <!-- HOME PAGE -->
+        <section id="home" class="page home-page active">
+
+            <div class="home-left">
+
+                <p class="top-text">HELLO, I'M</p>
+
+                <h1>
+                    Usha Sri
+                </h1>
+
+                <p class="description">
+                    Aspiring Web Developer & Creative Designer
+                </p>
+            </div>
+
+            <div class="home-right">
+
+                <div class="circle-design"></div>
+
+                <div class="person">
+
+                    <div class="hair"></div>
+                    <div class="head"></div>
+                    <div class="body"></div>
+
+                    <div class="laptop">
+
+                        <div class="screen">
+                            &lt;/&gt;
+                        </div>
+
+                        <div class="keyboard"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="about" class="page">
+
+            <div class="content">
+
+                <p class="top-text">WHO AM I?</p>
+
+                <h2>
+                    About me
+                </h2>
+
+                <p>
+                    I am a passionate student and aspiring web developer.
+                    I love creating attractive, responsive and user-friendly
+                    websites. I am interested in frontend development and
+                    continuously improving my technical skills.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- EDUCATION PAGE -->
+        <section id="education" class="page">
+
+            <div class="content">
+
+                <p class="top-text">MY ACADEMIC JOURNEY</p>
+
+                <h2>
+                    Education
+                </h2>
+
+                <div class="education-grid">
+
+                    <div class="education-card">
+
+                        <h3>10th Class</h3>
+
+                        <p>
+                            Secondary School Education
+                        </p>
+
+                        <button onclick="showPage('tenth')">
+                            View 10th Details
+                        </button>
+
+                    </div>
+
+                    <div class="education-card">
+
+                        <h3>Intermediate</h3>
+
+                        <p>
+                            Higher Secondary Education
+                        </p>
+
+                        <button onclick="showPage('intermediate')">
+                            View Intermediate Details
+                        </button>
+
+                    </div>
+
+                    <div class="education-card">
+
+                        <h3>B.Tech</h3>
+
+                        <p>
+                            Bachelor of Technology
+                        </p>
+
+                        <button onclick="showPage('btech')">
+                            View B.Tech Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 10TH DETAILS -->
+        <section id="tenth" class="page">
+
+            <div class="content">
+
+                <p class="top-text">
+                    SECONDARY SCHOOL EDUCATION
+                </p>
+
+                <h2>
+                    10th Class Details<span>.</span>
+                </h2>
+
+                <div class="details-box">
+
+                    <p>
+                        <strong>School Name:</strong>
+                        Vaagdevi EM High School
+                    </p>
+
+                    <p>
+                        <strong>Year of Passing:</strong>
+                        2020
+                    </p>
+
+                    <p>
+                        <strong>Total Marks:</strong>
+                        592
+                    </p>
+
+                    <div class="details-buttons">
+
+                        <button class="primary-btn"
+                            onclick="showPage('tenth-marksheet')">
+                            View Marksheet
+                        </button>
+
+                        <button class="secondary-btn"
+                            onclick="showPage('education')">
+                            Back to Education
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 10TH MARKSHEET -->
+        <section id="tenth-marksheet" class="page marksheet-page">
+
+            <div class="content">
+
+                <button class="back-button"
+                    onclick="showPage('tenth')">
+                    ← Back to 10th Details
+                </button>
+
+                <p class="top-text">
+                    DOCUMENT VIEW
+                </p>
+
+                <h2>
+                    10th Marksheet<span>.</span>
+                </h2>
+
+                <div class="full-marksheet-container">
+
+                    <img
+                        src="./images/10th mark list.jpeg"
+                        alt="10th Class Marksheet"
+                        class="full-marksheet-image">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INTERMEDIATE DETAILS -->
+        <section id="intermediate" class="page">
+
+            <div class="content">
+
+                <p class="top-text">
+                    HIGHER SECONDARY EDUCATION
+                </p>
+
+                <h2>
+                    Intermediate Details<span>.</span>
+                </h2>
+
+                <div class="details-box">
+
+                    <p>
+                        <strong>College Name:</strong>
+                        Sri Chaitanya Jr College
+                    </p>
+
+                    <p>
+                        <strong>Group:</strong>
+                        MPC
+                    </p>
+
+                    <p>
+                        <strong>Year of Passing:</strong>
+                        2022
+                    </p>
+
+                    <p>
+                        <strong>Total Marks:</strong>
+                        711
+                    </p>
+
+                    <p>
+                        <strong>Percentage:</strong>
+                        71.1%
+                    </p>
+
+                    <div class="details-buttons">
+
+                        <button class="primary-btn"
+                            onclick="showPage('intermediate-marksheet')">
+                            View Marksheet
+                        </button>
+
+                        <button class="secondary-btn"
+                            onclick="showPage('education')">
+                            Back to Education
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INTERMEDIATE MARKSHEET -->
+        <section id="intermediate-marksheet" class="page marksheet-page">
+
+            <div class="content">
+
+                <button class="back-button"
+                    onclick="showPage('intermediate')">
+                    ← Back to Intermediate Details
+                </button>
+
+                <p class="top-text">
+                    DOCUMENT VIEW
+                </p>
+
+                <h2>
+                    Intermediate Marksheet<span>.</span>
+                </h2>
+
+                <div class="full-marksheet-container">
+
+                    <img
+                        src="./images/intermediate mark list.jpeg"
+                        alt="Intermediate Marksheet"
+                        class="full-marksheet-image">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BTECH DETAILS -->
+        <section id="btech" class="page">
+
+            <div class="content">
+
+                <p class="top-text">
+                    UNDERGRADUATE EDUCATION
+                </p>
+
+                <h2>
+                    B.Tech Details<span>.</span>
+                </h2>
+
+                <div class="details-box">
+
+                    <p>
+                        <strong>College Name:</strong>
+                        Gandhi Institute of Technology and Management
+                    </p>
+
+                    <p>
+                        <strong>Branch:</strong>
+                        Computer Science and Engineering
+                    </p>
+
+                    <p>
+                        <strong>Passed Out:</strong>
+                        2026
+                    </p>
+
+                    <p>
+                        <strong>SGPA:</strong>
+                        8
+                    </p>
+
+                    <p>
+                        <strong>CGPA:</strong>
+                        6.64
+                    </p>
+
+                    <div class="details-buttons">
+
+                        <button class="primary-btn"
+                            onclick="showPage('btech-marksheet')">
+                            View Marksheet
+                        </button>
+
+                        <button class="secondary-btn"
+                            onclick="showPage('education')">
+                            Back to Education
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BTECH MARKSHEET -->
+        <section id="btech-marksheet" class="page marksheet-page">
+
+            <div class="content">
+
+                <button class="back-button"
+                    onclick="showPage('btech')">
+                    ← Back to B.Tech Details
+                </button>
+
+                <p class="top-text">
+                    DOCUMENT VIEW
+                </p>
+
+                <h2>
+                    B.Tech Marksheet<span>.</span>
+                </h2>
+
+                <div class="full-marksheet-container">
+
+                    <img
+                        src="./images/btech mark list.jpeg"
+                        alt="B.Tech Marksheet"
+                        class="full-marksheet-image">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SKILLS PAGE -->
+        <section id="skills" class="page">
+
+            <div class="content">
+
+                <p class="top-text">
+                    MY TECHNICAL ABILITIES
+                </p>
+
+                <h2>
+                    Skills
+                </h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-box">HTML</div>
+                    <div class="skill-box">CSS</div>
+                    <div class="skill-box">JavaScript</div>
+                    <div class="skill-box">Python</div>
+                    <div class="skill-box">SQL</div>
+                    <div class="skill-box">Java</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS PAGE -->
+        <section id="projects" class="page">
+
+            <div class="content">
+
+                <p class="top-text">
+                    MY WORK
+                </p>
+
+                <h2>
+                    Projects
+                </h2>
+                   
+               
+                </div>
+                      
+                <div class="project-card">
+                    <br><br>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A personal portfolio website showing my
+                        education, skills and projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section id="contact" class="page">
+
+            <div class="content">
+
+                <p class="top-text">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Contact me<span>.</span>
+                </h2>
+
+                <p>
+                    Email:
+                    ushasri@example.com
+                </p>
+
+                <p>
+                    Phone:
+                    +91 XXXXX XXXXX
+                </p>
+
+                <button class="primary-btn contact-btn">
+                    Send Message
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="./style.js"></script>
+
+</body>
+
+</html>
